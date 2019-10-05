@@ -49,28 +49,28 @@ public class MainActivity extends AppCompatActivity {
 
         String subjects = "";
         if (subject1.isChecked()) {
-            subjects = " " + subjects + subject1.getText().toString();
+            subjects = subjects + subject1.getText().toString() + "\n";
         }
         if (subject2.isChecked()) {
-            subjects = " " + subjects +  subject2.getText().toString();
+            subjects = subjects +  subject2.getText().toString()+ "\n" ;
         }
         if (subject3.isChecked()) {
-            subjects = " " + subjects + " " + subject3.getText().toString();
+            subjects = subjects + subject3.getText().toString()+ "\n";
         }
         if (subject4.isChecked()) {
-            subjects = " " + subjects + " " + subject4.getText().toString();
+            subjects = subjects + subject4.getText().toString()+ "\n";
         }
         if (subject5.isChecked()) {
-            subjects = " " + subjects + " " + subject5.getText().toString();
+            subjects = subjects + subject5.getText().toString()+ "\n";
         }
         if (subject6.isChecked()) {
-            subjects = " " + subjects + " " + subject6.getText().toString();
+            subjects = subjects + subject6.getText().toString()+ "\n";
         }
         if (subject7.isChecked()) {
-            subjects = " " + subjects + " " + subject7.getText().toString();
+            subjects = subjects + subject7.getText().toString()+ "\n";
         }
         if (subject8.isChecked()) {
-            subjects = " " + subjects + " " + subject8.getText().toString();
+            subjects = subjects + subject8.getText().toString()+ "\n";
         }
 
 
