@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
             subjects = subjects + subject7.getText().toString()+ "\n";
         }
         if (subject8.isChecked()) {
-            subjects = " "+ subjects + subject8.getText().toString()+ "\n";
+            subjects = subjects + subject8.getText().toString()+ "\n";
         }
 
 
